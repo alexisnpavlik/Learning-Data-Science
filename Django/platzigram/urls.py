@@ -1,12 +1,12 @@
 """platzigram URL module"""
 from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
-
-def hello_world(request):
-    """Returns a greeting"""
-    return HttpResponse("hello word!")
+from platzigram import views
 
 urlpatterns = [
-    path('hello-word',hello_world),
+    path('hello-world',views.hello_world),
+]
+
+urlpatterns = [
+    path('hi',views.hi),
 ]
