@@ -1,8 +1,9 @@
+#Esto es un closure (funcion anidada) 
 def main():
     a=1
 
-    def nested(): #Esto es un closure (funcuon anidada) recuerda la variable auterior aunque sea eliminada la funcion
-        #
+    def nested(): 
+#Recuerda la variable auterior
         print(a)
     
     return nested()
