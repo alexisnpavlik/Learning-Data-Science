@@ -1,3 +1,6 @@
+import os
+
+os.system ("cls")
 objetivo=int(input("Escribe el numero que quieres saber la raiz: "))
 epselon=0.00001
 arranque=0
