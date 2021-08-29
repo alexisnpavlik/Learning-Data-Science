@@ -13,7 +13,6 @@ p=lagrange(x,y)
 print("El polinomio sera:")
 
 
-
 print(p)
 print("valor en x")
 print(p(2))
